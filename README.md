@@ -17,25 +17,21 @@ The project was developed as a complete academic web application, focused on pro
 - Database connection and configuration files
 - Responsive styling through CSS
 
-## Project Structure
+## Technologies Used
 
-```text
-turyshop/
-├── admin/
-├── assets/
-├── auth/
-├── config/
-├── includes/
-├── about.php
-├── add_to_cart.php
-├── cart.php
-├── checkout.php
-├── contact.php
-├── gallery.php
-├── index.php
-├── order_success.php
-├── product.php
-├── products.php
-├── remove_from_cart.php
-├── size-guide.php
-└── update_cart.php
+- PHP
+- SQL
+- XAMPP
+- HTML
+- CSS
+- Java
+
+## Learning Purpose
+
+This project helped me understand how a full-stack web application is structured, how backend logic connects with database operations, and how e-commerce flows can be implemented in a practical scenario.
+
+It also helped me practice working with unfamiliar technologies, reading documentation, debugging issues and delivering a complete working solution.
+
+## Status
+
+Bachelor thesis project completed.
