@@ -501,3 +501,47 @@ main{
 .cart-summary .btn{
   min-height: 54px;
 }
+
+.gift-link {
+  position: relative;
+  color: var(--text);
+  padding: 0.5rem 0.75rem;
+}
+
+.gift-link:hover {
+  color: var(--accent-hover);
+}
+
+.gift-dot {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 9px;
+  height: 9px;
+  background: var(--accent);
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.gift-wheel {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #f8f1e9, #e8d2bd);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 14px 30px rgba(0,0,0,.08);
+}
+
+.gift-wheel i {
+  font-size: 3rem;
+  color: var(--dark);
+}
+
+.gift-result {
+  background: #f8f6f3;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem;
+}
